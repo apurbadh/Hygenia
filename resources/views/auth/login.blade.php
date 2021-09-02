@@ -36,7 +36,7 @@
       </div>
       <div class="register">
           <div class="container">
-              <i class="fas fa-user-plus fa-5x"></i>
+              <i class="fas fa-user-md fa-8x"></i>
               <h2>Hello,there!</h2>
               <p>Login to continue your further process to consult with the DOC</p>
               <a href="/register"><button>Register <i class="fas fa-arrow-circle-right"></i></button></a>
