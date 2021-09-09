@@ -9,20 +9,6 @@
     <script src="//cdn.jsdelivr.net/npm/sweetalert2@10"></script>
 
     <link rel="stylesheet" href="/static/css/style.css">
-    <script type="text/javascript">
-
-    	// function submitf(){
-    	// 	let question = document.querySelector("#quest").value;
-    	// 	if (!question){
-    	// 		Swal.fire("Please Write a question")
-    	// 	}
-    	// 	else{
-    	// 		let form = document.getElementById("formq")
-    	// 		form.submit();
-    	// 	}
-    	// }
-    </script>
-
   </head>
   <body>
 

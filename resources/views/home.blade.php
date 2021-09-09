@@ -95,60 +95,13 @@
 			</header>
 
 			<section class="works smooth-in">
-
-				<div class="work">
-					<img src="https://assets.awwwards.com/awards/media/cache/thumb_417_299/submissions/2018/02/5a969beeb9177.jpg">
+				@foreach ($users as $user)
+					<div class="work">
+					{{ $user[0]->name }}
 				</div>
-				<div class="work">
-					<img src="https://assets.awwwards.com/awards/media/cache/thumb_417_299/submissions/2018/02/5a857d11241e4.jpg">
-				</div>
-				<div class="work">
-					<img src="https://assets.awwwards.com/awards/media/cache/thumb_417_299/submissions/2018/02/5a756c783b52e.png">
-				</div>
-				<div class="work">
-					<img src="https://assets.awwwards.com/awards/media/cache/thumb_417_299/submissions/2018/01/5a58f2a7b7806.jpg">
-				</div>
-				<div class="work">
-					<img src="https://assets.awwwards.com/awards/media/cache/thumb_417_299/submissions/2017/12/5a393a545ed9a.jpg">
-				</div>
-				<div class="work">
-					<img src="https://assets.awwwards.com/awards/media/cache/thumb_417_299/submissions/2017/10/59e7aafe919c9.png">
-				</div>
-				<div class="work">
-					<img src="https://assets.awwwards.com/awards/media/cache/thumb_417_299/submissions/2017/10/59e928bcddb50.png">
-				</div>
-				<div class="work">
-					<img src="https://assets.awwwards.com/awards/media/cache/thumb_417_299/submissions/2017/10/59e0ec1f8f000.jpg">
-				</div>
-				<div class="work">
-					<img src="https://assets.awwwards.com/awards/media/cache/thumb_417_299/submissions/2017/10/59e036c197ac6.png">
-				</div>
-
+				@endforeach
+				
 			</section>
-
-			<footer>
-
-				<nav class="footer-nav">
-					<ul>
-						<li>
-							<a href="#"><i class="fab fa-facebook-square"></i></a>
-						</li>
-						<li>
-							<a href="#"><i class="fab fa-dribbble-square"></i></a>
-						</li>
-						<li>
-							<a href="#"><i class="fab fa-codepen"></i></a>
-						</li>
-						<li>
-							<a href="#"><i class="fab fa-github-square"></i></a>
-						</li>
-						<li>
-							<a href="#"></a>
-						</li>
-					</ul>
-				</nav>
-
-			</footer>
 
 		</main>
     <script src="/resources/js/home.js"></script>
