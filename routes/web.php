@@ -22,3 +22,6 @@ Auth::routes();
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 Route::get('/doctor', [App\Http\Controllers\DoctorCreationController::class, "index"])->name("doctor");
 Route::post('/doctor', [App\Http\Controllers\DoctorCreationController::class, "store"])->name("doctor_post");
+Route::get('chat', function() {
+    return view('layouts.index');
+});

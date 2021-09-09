@@ -11,7 +11,7 @@ class DoctorCreationController extends Controller
     }
 
     public function store(Request $req){
-        $certificate = $req->files("doctor_certificate");
+        $certificate = $req->file("doctor_certificate");
         $qualification = $req->input("qualification");
         $sector = $req->input("sector");
         $description = $req->input("description");
