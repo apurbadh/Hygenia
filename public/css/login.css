@@ -100,7 +100,7 @@ input[type="checkbox"]{
 /*Start Register Style*/
 .register{
     float: right;
-    background-image: linear-gradient(135deg, #23212f 5%, #2b6fd4 95%);
+    background-color: #2832C2; 
     height: 100%;
     color:#fff;
     border-radius:  0 10px 10px  0;
@@ -127,7 +127,7 @@ input[type="checkbox"]{
     transition:0.2s all  ease-in-out;
 }
 .register button:hover{
-    color: #2b6fd4;
+    color: #2832C2;
     background-color: #fff;
     cursor: pointer;
 }
