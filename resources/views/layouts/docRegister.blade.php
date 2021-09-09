@@ -21,11 +21,11 @@
         @csrf
         <div class="form-group">
           <label for="exampleFormControlInput1">Certificate</label>
-          <input name="doctor_certificate" type="file" class="form-control" id="profile" placeholder="Your Doctor's Certificate">
+          <input name="doctor_certificate" type="file" class="form-control" id="profile" placeholder="Your Doctor's Certificate" required>
         </div>
         <div class="form-group">
           <label for="exampleFormControlSelect1">Qualification</label>
-          <select class="form-control" id="exampleFormControlSelect1">
+          <select name="qualification" class="form-control" id="exampleFormControlSelect1" required>
             <option>MBBS</option></option>
             <option>Master Of Medicine</option>
             <option>Master Of Surgery</option>
@@ -35,7 +35,7 @@
         </div>
         <div class="form-group">
           <label for="exampleFormControlSelect2">Sector</label>
-          <select multiple class="form-control" id="exampleFormControlSelect2">
+          <select name="sector" multiple class="form-control" id="exampleFormControlSelect2" required>
             <option>Physician</option>
             <option>neurologist</option>
             <option>Orthopedic</option>
@@ -45,7 +45,7 @@
         </div>
         <div class="form-group">
           <label for="exampleFormControlTextarea1">Description</label>
-          <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Tell something about yourself"></textarea>
+          <textarea name="description" class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Tell something about yourself" required></textarea>
         </div>
         <button class="btn btn-primary" type="submit" value="">Submit</button>
       </form>
