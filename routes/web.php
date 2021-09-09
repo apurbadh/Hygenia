@@ -20,3 +20,6 @@ Route::any('', function () {
 Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+Route::get('/doctor', function() {
+    return view('layouts.docRegister');
+});

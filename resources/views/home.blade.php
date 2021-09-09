@@ -11,7 +11,6 @@
 
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.0/jquery.min.js" integrity="sha512-suUtSPkqYmFd5Ls30Nz6bjDX+TCcfEzhFfqjijfdggsaFZoylvTj+2odBzshs0TCwYrYZhQeCgHgJEkncb2YVQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
-
 		<meta http-equiv="x-ua-compatible" content="ie=edge">
 		<meta content="IE=edge" http-equiv="X-UA-Compatible">
 		<meta name="x-apple-disable-message-reformatting">
