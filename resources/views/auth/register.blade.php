@@ -39,7 +39,7 @@
       <div class="register">
           <div class="container">
               <i class="fas fa-user-md fa-8x"></i>
-              <h2 class="text">Hello,there!</h2>
+              <h2>Hello,there!</h2>
               <p>Register your account to consult with your desired Doctor.</p>
               <a href="/login"><button>Login <i class="fas fa-arrow-circle-right"></i></button></a>
           </div>
